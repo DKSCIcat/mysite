@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./chatstyle/chatstyle.css" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <!-- <header></header> -->
+    <main>
+      <aside class="chat-list">
+        <div class="chat-item">
+          <div>
+            <div class="portrait"></div>
+            <div>
+              <span class="username">macongjian</span>
+              <span class="lastMessage">你好，我是macongjian</span>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <!--  -->
+      <div class="mainContent">
+        <header>
+          <h1>username</h1>
+        </header>
+        <div>
+          <div class="conversation" id="chat"></div>
+          <div class="editing-zone">
+            <div class="writeText">
+              <textarea
+                name="input_box"
+                id="chatText"
+                cols="25"
+                rows="3"
+                maxlength="50"
+                required
+              ></textarea>
+            </div>
+
+            <div class="control-tools">
+              <div id="send">send</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./chatJS/main.js"></script>
+  </body>
+</html>

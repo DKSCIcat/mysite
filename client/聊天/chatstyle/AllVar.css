@@ -1,0 +1,15 @@
+:root {
+  --light: #ddd6;
+  --lightFcolor: #555e;
+  --lightBoundary: #aaa5;
+  --lightScrollbar: #ddd8;
+  --dark: #5555;
+  --darkFcolor: #eeee;
+  --darkBoundary: #8885;
+  --darkScrollbar: #6665;
+
+  --curTheme: var(--dark);
+  --curFcolor: var(--darkFcolor);
+  --curBoundary: var(--darkBoundary);
+  --curScrollbar: var(--darkScrollbar);
+}
