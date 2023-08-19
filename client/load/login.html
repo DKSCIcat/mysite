@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./mainStyle.css" />
+    <!-- <script src="//at.alicdn.com/t/font_3372884_ejm1fdl7t0v.js"></script> -->
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="blur">
+      <main>
+        <div class="card_name">wonderland</div>
+
+        <form>
+          <div class="input_content">
+            <label for="username">账户:</label>
+            <input
+              type="text"
+              id="username"
+              placeholder="填写账号"
+              minlength="1"
+              maxlength="20"
+              required
+              autocomplete="username"
+            />
+          </div>
+          <div class="input_content">
+            <label for="password">密钥:</label>
+            <input
+              type="password"
+              autocomplete="current-password"
+              minlength="6"
+              maxlength="20"
+              id="password"
+              placeholder="填写密码"
+            />
+          </div>
+          <div class="behavior">
+            <input type="button" value="登录" id="signIn" />
+          </div>
+        </form>
+        <div class="card_footer">
+          <ul>
+            <li>
+              <div>
+                <a href="http://127.0.0.1:8000/login/register/">注册用户</a>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a href="">忘记密码</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </main>
+    </div>
+    <script src="./load.js"></script>
+  </body>
+</html>

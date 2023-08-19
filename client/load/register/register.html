@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./register.css" />
+    <title>注册用户</title>
+  </head>
+  <body class="center">
+    <main class="center">
+      <div class="center">
+        <header>注册用户</header>
+      </div>
+      <div name="form-body" class="center">
+        <form action="" class="center">
+          <div name="username">
+            <div>
+              <label for="who">我是谁:</label>
+            </div>
+            <div>
+              <input id="who" type="text" minlength="1" maxlength="20" />
+            </div>
+          </div>
+          <div name="username">
+            <div>
+              <label for="name">用户名:</label>
+            </div>
+            <div>
+              <input id="name" type="text" minlength="1" maxlength="20" />
+            </div>
+          </div>
+          <div name="password">
+            <div>
+              <label for="pwd">密码:</label>
+            </div>
+            <div>
+              <input id="pwd" type="password" minlength="8" maxlength="20" />
+            </div>
+          </div>
+          <div name="confirm_pwd">
+            <div>
+              <label for="confirm_pwd">确认密码:</label>
+            </div>
+            <div>
+              <input
+                id="confirm_pwd"
+                type="password"
+                minlength="8"
+                maxlength="20"
+              />
+            </div>
+          </div>
+          <div name="提交" id="submit">
+            <input type="button" value="提交申请" />
+          </div>
+        </form>
+      </div>
+    </main>
+    <script async src="./verify.js"></script>
+  </body>
+</html>

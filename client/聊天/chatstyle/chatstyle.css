@@ -1,0 +1,83 @@
+@import url("./common.css");
+@import url("./scrollbar.css");
+@import url("./AllVar.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+::selection {
+  background-color: #5faa;
+  color: #fff;
+}
+body {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.base-style {
+  display: flex;
+  align-items: center;
+  /* justify-content: start; */
+  width: 100%;
+  padding: 10px 0;
+}
+.base-style > .userInfo1 {
+  min-height: 100%;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.portrait {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  /* background-color: #6af; */
+  background: url("./bender.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.base-style > .userInfo2 {
+  color: #000;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.base-style > .userInfo2 > .Amessage {
+  margin-top: 10px;
+  padding: 0.3em 0.8em;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  margin: 0 0.2em;
+  border: solid 1px #0000;
+  font-size: 1.6rem;
+  line-height: 1.5em;
+  word-break: break-all;
+  max-width: 60%;
+  overflow: hidden;
+}
+
+.oneself {
+  flex-direction: row-reverse;
+  /* background-color: #5f8; */
+}
+.opposite-side {
+  flex-direction: row;
+}
+
+.SEND-bgc {
+  background-color: #86e;
+  color: #fff;
+}
+.RECEIVE-bgc {
+  background-color: #fff;
+  color: #222;
+}

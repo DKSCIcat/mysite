@@ -1,0 +1,26 @@
+.conversation::-webkit-scrollbar {
+  width: 0.4rem;
+  background-color: #0000;
+}
+.conversation::-webkit-scrollbar-track {
+  border-radius: 3px;
+  background-color: #0000;
+}
+/* 滚动条滑块 */
+#friends::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  background: var(--curScrollbar);
+}
+#friends::-webkit-scrollbar {
+  width: 0.4rem;
+  background-color: #0000;
+}
+#friends::-webkit-scrollbar-track {
+  border-radius: 3px;
+  background-color: #0000;
+}
+/* 滚动条滑块 */
+#friends::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  background: var(--curScrollbar);
+}

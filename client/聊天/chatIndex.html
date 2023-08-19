@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./chatstyle.css" />
+    <link rel="stylesheet" href="./friend.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <aside id="friends" class="chat-list">
+        <div id="add_friends" class="chat-item">
+          <div class="center">
+            <h2>添加好友</h2>
+          </div>
+        </div>
+      </aside>
+      <!--  -->
+      <div class="mainContent">
+        <header>
+          <h1>username</h1>
+        </header>
+        <div>
+          <div class="conversation" id="chat"></div>
+          <div class="editing-zone">
+            <div class="writeText">
+              <textarea
+                name="input_box"
+                id="chatText"
+                cols="25"
+                rows="3"
+                maxlength="200"
+                required
+              ></textarea>
+            </div>
+
+            <div class="control-tools">
+              <div id="send">send</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- <dialog id="dialog">
+      <form method="dialog">
+        <div>
+          <label for="uname">用户名：</label>
+          <input type="text" id="uname" />
+        </div>
+        <div>
+          <input id="ok" type="button" value="确认" />
+          <input id="cancel" type="submit" value="取消" />
+        </div>
+      </form>
+    </dialog> -->
+    <script async src="./main.js"></script>
+    <script async src="./get_friends.js"></script>
+    <script async src="./history.js"></script>
+  </body>
+</html>

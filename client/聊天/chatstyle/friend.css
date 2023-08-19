@@ -1,0 +1,71 @@
+.center {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+#add_friends > div {
+  background: linear-gradient(135deg, #35f, #d5f);
+}
+#add_friends > div > h2 {
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+#friend {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+
+#dialog {
+  position: absolute;
+  /* z-index: 2; */
+  width: 300px;
+  height: 120px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fff;
+}
+#dialog > form {
+  width: 100%;
+  height: 100%;
+}
+#dialog > form > :nth-child(n) {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+#dialog > form > :nth-child(1) > label {
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+#dialog > form > :nth-child(1) > input {
+  height: 24px;
+  padding: 1px 3px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  width: 150px;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  border-bottom: solid 2px #333;
+}
+#dialog > form > :nth-child(2) > button {
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 3px;
+  height: 35px;
+  width: 24%;
+  margin: 0 20px;
+  color: #fff;
+  background: linear-gradient(135deg, #35f, #69e);
+  border: none;
+  border-radius: 12px;
+}
